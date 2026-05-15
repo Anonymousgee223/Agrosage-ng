@@ -1,0 +1,23 @@
+{
+  "buildCommand": "bun run build",
+  "outputDirectory": "dist",
+  "installCommand": "bun install",
+  "framework": "vite",
+  "redirects": [
+    {
+      "source": "/download",
+      "destination": "https://expo.dev/artifacts/eas/gpz2zcS9dU1Ywq6qCb8p23.apk",
+      "permanent": false
+    },
+    {
+      "source": "/apk",
+      "destination": "https://expo.dev/artifacts/eas/gpz2zcS9dU1Ywq6qCb8p23.apk",
+      "permanent": false
+    },
+    {
+      "source": "/app",
+      "destination": "https://expo.dev/artifacts/eas/gpz2zcS9dU1Ywq6qCb8p23.apk",
+      "permanent": false
+    }
+  ]
+}

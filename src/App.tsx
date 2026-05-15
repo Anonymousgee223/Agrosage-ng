@@ -693,6 +693,13 @@ function Download() {
               <p className="text-lg font-black">Google Play</p>
             </div>
           </a>
+          <a href="https://expo.dev/artifacts/eas/gpz2zcS9dU1Ywq6qCb8p23.apk" className="flex items-center gap-4 px-7 py-4 rounded-2xl text-white transition-opacity hover:opacity-90 w-full sm:w-auto justify-center" style={{ background: '#1a1a2e' }}>
+            <svg viewBox="0 0 24 24" className="w-7 h-7 fill-current"><path d="M17.523 15.341a7.5 7.5 0 1 0-11.046 0A9 9 0 0 0 3 24h18a9 9 0 0 0-3.477-8.659zM12 14a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0-9a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z"/><path d="M12 11l-2-3h1.5V5h1v3H14l-2 3z"/></svg>
+            <div className="text-left">
+              <p className="text-xs font-medium opacity-80">Direct Download</p>
+              <p className="text-lg font-black">Android APK</p>
+            </div>
+          </a>
         </div>
 
         {/* Feature pills */}
